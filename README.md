@@ -23,8 +23,6 @@ Não deve ser preciso um usuário ser administrador para listar.\
 ### Cadastro de Especificações do Carro
 **RF**\
 Deve ser possível cadastrar uma especifição no carro.\
-Deve ser possível listar todas as especificações.\
-Deve ser possível listar todos os carros.
 
 **RN**\
 Não deve ser possível cadastrar uma especificação em um carro não existente.\

@@ -18,11 +18,11 @@ Deve ser possível listar todos os carros disponíveis por marca.\
 Deve ser possível listar todos os carros disponíveis por nome.\
 
 **RN**\
-Não deve ser preciso um usuário ser administrador para listar.\
+Não deve ser preciso um usuário ser administrador para listar
 
 ### Cadastro de Especificações do Carro
 **RF**\
-Deve ser possível cadastrar uma especifição no carro.\
+Deve ser possível cadastrar uma especifição no carro.
 
 **RN**\
 Não deve ser possível cadastrar uma especificação em um carro não existente.\
@@ -31,8 +31,7 @@ Não deve ser possível um usuário não administrador cadastrar especificaçõe
 
 ### Cadastro de Imagens do Carro
 **RF**\
-Deve ser possível cadastrar uma ou mais imagens do carro.\
-Deve ser possível listar todos os carros.
+Deve ser possível cadastrar uma ou mais imagens do carro.
 
 **RNF**\
 Utilizar o multer para upload dos arquivos.

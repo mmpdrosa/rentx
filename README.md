@@ -46,4 +46,5 @@ Deve ser possível cadastrar um aluguel.
 **RN**\
 O aluguel deve ter duração mínima de 24 horas.\
 Não deve ser possível um usuário cadastrar mais de um aluguel.\
-Não deve ser possível alugar um carro já alugado.
+Não deve ser possível alugar um carro já alugado.\
+Não deve ser possível um usuário não logado cadastrar um aluguel.

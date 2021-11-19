@@ -15,7 +15,7 @@ O carro por padrão deve ser cadastrado como disponível.\
 Deve ser possível possível listar os carros disponíveis.\
 Deve ser possível listar todos os carros disponíveis por categoria.\
 Deve ser possível listar todos os carros disponíveis por marca.\
-Deve ser possível listar todos os carros disponíveis por nome.\
+Deve ser possível listar todos os carros disponíveis por nome.
 
 **RN**\
 Não deve ser preciso um usuário ser administrador para listar
@@ -47,4 +47,27 @@ Deve ser possível cadastrar um aluguel.
 O aluguel deve ter duração mínima de 24 horas.\
 Não deve ser possível um usuário cadastrar mais de um aluguel.\
 Não deve ser possível alugar um carro já alugado.\
-Não deve ser possível um usuário não logado cadastrar um aluguel.
+Não deve ser possível um usuário não logado cadastrar um aluguel.\
+Ao realizar um aluguel o status do carro deve ser alterado para indisponível.
+
+### Devolução de Carro
+**RF**\
+Deve ser possível realizar a devolução de um carro.
+
+**RN**\
+Deve ser cobrado uma diária completa se o carro for entregue em menos de 24 horas.\
+O carro deve ser liberado para outro aluguel ao ser devolvido.\
+O usuário deve ser liberado para realizar outro aluguel ao devolver um carro.\
+Ao realizar a devolução o total do aluguel deve ser calculado.\
+Deve ser cobrado uma multa proporcional aos dias de atraso caso o horário de devolução seja superior ao estabelecido no aluguel.\
+A multa, caso exista, deve ser somada ao total do aluguel.\
+Não deve ser possível um usuário não logado realizar a devolução.
+
+### Listagem de Alugueis do Usuário
+**RF**\
+Deve ser possível listar todos os alugueis do usuário.
+
+**RN**\
+Não deve ser possível um usuário não logado realizar a listagem.
+
+

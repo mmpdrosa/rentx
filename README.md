@@ -3,11 +3,11 @@
 ## Requisitos
 ### Cadastro de Carro
 **RF**\
-Deve ser possível cadastrar um novo carro.\
+Deve ser possível cadastrar um novo carro.
 
 **RN**\
 Não deve ser possível cadastrar um carro com uma placa já existente.\
-O carro por padrão deve ser cadastrado como disponível.\
+O carro por padrão deve ser cadastrado como disponível.
 * Não deve ser possível um usuário não administrador cadastrar um carro ou alterar a placa de um já existente.
 
 ### Listagem de Carros

@@ -70,4 +70,14 @@ Deve ser possível listar todos os alugueis do usuário.
 **RN**\
 Não deve ser possível um usuário não logado realizar a listagem.
 
+### Recuperar Senha
+**RF**\
+Deve ser possível que o usuário recupere a senha informando o e-mail.\
+O usuário deve receber um e-mail com o passo a passo para a recuperação da senha.\
+O usuário deve conseguir inserir uma nova senha.
+
+**RN**\
+O usuário precisa informar uma nova senha.\
+O link enviao para a recuperação deve experirar em 3 horas.
+
 
